@@ -1,0 +1,36 @@
+{
+  "name": "member_odin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerone0x/Member_odin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerone0x/Member_odin/issues"
+  },
+  "homepage": "https://github.com/zerone0x/Member_odin#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.18.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

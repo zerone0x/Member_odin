@@ -45,7 +45,7 @@ UserSchema.methods.createJWT = function () {
 // bcrypt - 通过compare来对比加密前和加密后的password
 UserSchema.methods.comparePassword = async function (password) {
     return bcrypt.compare(password, this.password)
-}
+} 
 
 
 module.exports = mongoose.model('User', UserSchema);
